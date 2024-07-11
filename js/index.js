@@ -1,29 +1,9 @@
-//
-// let allTitle = document.querySelectorAll("h1");
-// allTitle.style.color = "red";
-// allTitle.style.background = "red";
+let container = document.getElementById("container");
+container.style.maxWidth = "1203px";
+container.style.marginLeft = "auto";
+container.style.marginRight = "auto";
 
-// let container = document.getElementById("container");
-// container.style.display = "flex";
-
-// console.log(title);
-// p.style.background = "#2B2B2B";
-// p.style.fontfamily = "Nunito Sans";
-// h1title.style.fontFamily = "Nunito Sans";
-// let header_container = document.getElementById("header_container");
-// header_container.style.display = "flex";
-
-//
-/*width: 1171px;
-height: 80px;
-top: 34px;
-left: 142px;
-gap: 0px;
-opacity: 0px;
-*/
 let header = document.getElementById("header");
-header.style.width = "1171px";
-header.style.marginLeft = "142px";
 header.style.marginTop = "34px";
 header.style.display = "flex";
 header.style.alignItems = "center";
@@ -59,17 +39,26 @@ atitle3.style.fontWeight = "600";
 atitle3.style.fontSize = "16px";
 atitle3.style.lineHeight = "24px";
 
-/*font-family: Nunito Sans;
-font-size: 64px;
-font-weight: 700;
-line-height: 76.8px;
-text-align: center;
+let header_btn1 = document.getElementById("headerbtn1");
+header_btn1.style.padding = "8px 25px";
+header_btn1.style.background = "#423F3E";
+header_btn1.style.color = "#ffffff";
+header_btn1.style.borderRadius = "5px";
+header_btn1.style.border = "none";
 
-*/
+let header_btn2 = document.getElementById("headerbtn2");
+header_btn2.style.padding = "8px 25px";
+header_btn2.style.background = "#423F3E";
+header_btn2.style.color = "#ffffff";
+header_btn2.style.borderRadius = "5px";
+header_btn2.style.border = "none";
+header_btn2.style.marginLeft = "20px";
 
+// hero
 let hero_container = document.getElementById("hero_container");
-hero_container.style.marginLeft = "240px";
+hero_container.style.marginLeft = "85px";
 hero_container.style.maxWidth = "960px";
+hero_container.style.textAlign = "center";
 hero_container.style.height = " 356px";
 hero_container.style.fontFamily = "Nunito Sans";
 hero_container.style.marginBottom = "330px";
@@ -86,25 +75,40 @@ hero_p.style.fontSize = "24px";
 hero_p.style.fontWeight = "700";
 hero_p.style.lineHeight = "28px";
 
+// nulla
 let nulla_commodo_container = document.getElementById(
   "nulla_commodo_container"
 );
-nulla_commodo_container.style.marginLeft = "240px";
 nulla_commodo_container.style.color = "#2B2B2B";
+nulla_commodo_container.style.display = "flex";
+nulla_commodo_container.style.gap = "68px";
+nulla_commodo_container.style.alignItems = "center";
 
 let nulla_title = document.getElementById("nulla_title");
 nulla_title.style.fontSize = "53px";
 nulla_title.style.fontWeight = "700";
 nulla_title.style.lineHeight = "63px";
+nulla_title.style.fontFamily = "Nunito Sans";
+nulla_title.style.marginBottom = "60px";
+
+let nullabox = document.getElementById("nullabox");
+nullabox.style.display = "flex";
+nullabox.style.gap = "54px";
 
 let nullap1 = document.getElementById("nullap1");
 nullap1.style.fontSize = "16px";
 nullap1.style.fontWeight = "600";
 nullap1.style.lineHeight = "24px";
 nullap1.style.fontFamily = "Nunito Sans";
+nullap1.style.margin = "0px";
 
 let nullap2 = document.getElementById("nullap2");
 nullap2.style.fontSize = "16px";
 nullap2.style.fontWeight = "600";
 nullap2.style.lineHeight = "24px";
 nullap2.style.fontFamily = "Nunito Sans";
+nullap2.style.margin = "0px";
+
+//profession
+
+let profession = document.getElementById(profession);
